@@ -2,4 +2,10 @@ title: This is a test
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-default-layout
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
