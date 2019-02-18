@@ -2,6 +2,8 @@ title: This is a test
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-remote-theme
+remote_theme: benbalter/retlab
 defaults:
   -
     scope:
